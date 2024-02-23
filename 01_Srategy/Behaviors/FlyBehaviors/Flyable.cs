@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _01_Srategy.Behaviors.FlyBehaviors
 {
-    class Flyable
+    public class Flyable: FlyBehavior
     {
         public string Run() => "I can Fly";
     }

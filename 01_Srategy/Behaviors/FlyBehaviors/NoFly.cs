@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _01_Srategy.Behaviors
+﻿namespace _01_Srategy.Behaviors.FlyBehaviors
 {
-    class NoFly
+    public class NoFly: FlyBehavior
     {
         public string Run() => "I can't Fly";
     }

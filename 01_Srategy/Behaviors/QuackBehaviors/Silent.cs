@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _01_Srategy.Behaviors.QuackBehaviors
 {
-    class Silent
+    public class Silent : QuackBehavior
     {
         public string Run() => "I make no sound!";
     }

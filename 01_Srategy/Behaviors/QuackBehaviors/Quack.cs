@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _01_Srategy.Behaviors.QuackBehaviors
 {
-    class Quack
+    public class Quack : QuackBehavior
     {
         public string Run() => "Quack";
     }

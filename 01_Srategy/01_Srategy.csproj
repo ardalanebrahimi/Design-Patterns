@@ -6,8 +6,4 @@
     <RootNamespace>_01_Srategy</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Pattern_Solution\" />
-  </ItemGroup>
-
 </Project>
